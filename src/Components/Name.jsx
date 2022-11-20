@@ -1,6 +1,9 @@
-function Name (pros) {
+function Name(props) {
+  
+  const {name} = props;
   return ( 
-    <h1>Hello, { pros.name}</h1>
+    <h1>Hello, {name}</h1> 
+    
    );
 }
 
